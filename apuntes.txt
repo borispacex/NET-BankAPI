@@ -8,3 +8,9 @@ Scaffold-DbContext "Server=DESKTOP-V3E5ICQ\MSSQLSERVERDEV; DataBase=Bank;Integra
 
 
 Scaffold-DbContext "Server=DESKTOP-V3E5ICQ\MSSQLSERVERDEV; DataBase=Bank;Integrated Security=true" Microsoft.EntityFrameworkCore.SqlServer -OutPutDir Data\BankModels -ContextDir Data -force
+
+
+--- AZURE
+
+Admin Server:	bankadmin
+Contraseña:	Bankadm1n
