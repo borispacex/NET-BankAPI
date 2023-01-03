@@ -74,7 +74,7 @@ namespace BankAPI.Controllers
             }
         }
 
-        public NotFoundObjectResult ClientNotFound(int id)
+        private NotFoundObjectResult ClientNotFound(int id)
         {
             return NotFound(new { message = $"El cliente con ID = {id} no existe." });
         }

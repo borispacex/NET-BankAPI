@@ -2278,11 +2278,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\BORIS\\Documents\\Projects\\C#-projects\\BankAPI\\BankAPI\\BankAPI.csproj",
+      "projectUniqueName": "C:\\Users\\BORIS\\Documents\\Projects\\CSharp-projects\\BankAPI\\BankAPI\\BankAPI.csproj",
       "projectName": "BankAPI",
-      "projectPath": "C:\\Users\\BORIS\\Documents\\Projects\\C#-projects\\BankAPI\\BankAPI\\BankAPI.csproj",
+      "projectPath": "C:\\Users\\BORIS\\Documents\\Projects\\CSharp-projects\\BankAPI\\BankAPI\\BankAPI.csproj",
       "packagesPath": "C:\\Users\\BORIS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\BORIS\\Documents\\Projects\\C#-projects\\BankAPI\\BankAPI\\obj\\",
+      "outputPath": "C:\\Users\\BORIS\\Documents\\Projects\\CSharp-projects\\BankAPI\\BankAPI\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\BORIS\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2347,6 +2347,24 @@
         ],
         "assetTargetFallback": true,
         "warn": true,
+        "downloadDependencies": [
+          {
+            "name": "Microsoft.AspNetCore.App.Ref",
+            "version": "[6.0.12, 6.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Host.win-x64",
+            "version": "[6.0.12, 6.0.12]"
+          },
+          {
+            "name": "Microsoft.NETCore.App.Ref",
+            "version": "[6.0.12, 6.0.12]"
+          },
+          {
+            "name": "Microsoft.WindowsDesktop.App.Ref",
+            "version": "[6.0.12, 6.0.12]"
+          }
+        ],
         "frameworkReferences": {
           "Microsoft.AspNetCore.App": {
             "privateAssets": "none"
@@ -2355,7 +2373,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

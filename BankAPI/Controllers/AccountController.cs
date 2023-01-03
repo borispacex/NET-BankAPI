@@ -97,11 +97,11 @@ namespace BankAPI.Controllers
 
 
 
-        public NotFoundObjectResult AccountNotFound(int id)
+        private NotFoundObjectResult AccountNotFound(int id)
         {
             return NotFound(new { message = $"La cuenta con ID = {id} no existe." });
         }
-        public async Task<string> ValidateAccount(AccountDtoIn account)
+        private async Task<string> ValidateAccount(AccountDtoIn account)
         {
             string result = "Valid";
             var accountType = await _accountTypeService.GetById(account.AccountType);
